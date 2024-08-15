@@ -1,0 +1,28 @@
+name: html
+on:
+  push:
+    paths:
+      - "index.md"
+    branches:
+      - main
+jobs:
+  generate-html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run pandoc
+        uses: docker://pandoc/latex:2.9
+        with:
+          args: "pandoc --standalone --metadata pagetitle=\"No Direct Calls\" --css \"assets/css/pandoc.css\" --output=index.html index.md"
+      - name: Commit
+        run: |
+          git config --global user.name "zjhch123"
+          git config --global user.email "zjhch123@qq.com"
+          git add index.html
+          git commit -m "Generate index.html from index.md"
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
