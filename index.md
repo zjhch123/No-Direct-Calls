@@ -1,6 +1,6 @@
 # Please Don't Call Me Directly on Teams
 
-## TL;DR
+## TL;DR 
 
 Modern digital communication should respect the time and attention of all participants. **Don't call someone out of the blue on Teams**. Similarly, **avoid sending vague messages like** `Hi XXX, call?`. Instead, **provide context, check availability, and request a call**. This allows for a more efficient and considerate exchange of information.
 
