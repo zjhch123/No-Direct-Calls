@@ -5,6 +5,8 @@ on:
       - "index.md"
     branches:
       - main
+  workflow_dispatch:
+
 jobs:
   generate-html:
     runs-on: ubuntu-latest
