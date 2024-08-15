@@ -1,4 +1,4 @@
-name: html
+name: Generate HTML from Markdown
 on:
   push:
     paths:

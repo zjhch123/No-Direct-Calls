@@ -5,7 +5,7 @@ on:
     branches:
       - "main"
     paths:
-      - "index.md"
+      - "index.html"
 
   workflow_dispatch:
 
