@@ -1,8 +1,8 @@
-# Please Don't Call Me Directly on Teams
+# Please Don't Call Me Directly in Chat
 
 ## TL;DR
 
-Modern digital communication should respect the time and attention of all participants. **Don't call someone out of the blue on Teams**. Similarly, **avoid sending vague messages like** `Hi XXX, call?`. Instead, **provide context, check availability, and request a call**. This allows for a more efficient and considerate exchange of information.
+Modern digital communication should respect the time and attention of all participants. **Don't call someone out of the blue in Chat**. Similarly, **avoid sending vague messages like** `Hi XXX, call?`. Instead, **provide context, check availability, and request a call**. This allows for a more efficient and considerate exchange of information.
 
 ## Call Etiquette
 
